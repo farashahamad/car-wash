@@ -1,0 +1,33 @@
+
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Car Wash Booking</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>íº— Car Wash Booking</h1>
+    <form id="bookingForm">
+      <input type="text" name="name" placeholder="Full Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number (e.g. 919876543210)" required />
+      <input type="date" name="date" required />
+      <select name="service">
+        <option value="Basic Wash">Basic Wash</option>
+        <option value="Premium Wash">Premium Wash</option>
+        <option value="Deluxe Wash">Deluxe Wash</option>
+      </select>
+      <button type="submit">Book Now</button>
+    </form>
+    <p id="status"></p>
+  </div>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/1234567890"  target="_blank" class="whatsapp-button">í²¬</a>
+
+  <script src="script.js"></script>
+</body>
+</html>
